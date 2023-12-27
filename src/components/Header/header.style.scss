@@ -1,0 +1,15 @@
+@import "../../styles/variables.module";
+
+.header {
+    display: flex;
+    background: $dark-bg;
+    justify-content: center;
+    }
+
+    .serviceName {
+        font-family: 'Saira Stencil One', sans-serif;
+        font-size: 24px;
+        width: 1200px;
+        padding: 4px 15px;
+        color: $light-grey;
+    }

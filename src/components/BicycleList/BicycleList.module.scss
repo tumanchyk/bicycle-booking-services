@@ -1,0 +1,61 @@
+@import "../../styles/variables.module";
+
+.bicyclesWrapper{
+    width: 100%;
+    padding: 15px;
+    border-right: 1px solid grey;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 255, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+.itemBusy {
+    background: rgba(255, 102, 0, 0.3);
+}
+.itemUnavlb {
+    background: rgba(255, 0, 0, 0.3);
+}
+
+.deleteBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.price{
+    font-size: 24px;
+    align-self: flex-end;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.name{
+font-weight: 700;
+margin-right: 3px;
+}
+.id{
+    color: #717171;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}

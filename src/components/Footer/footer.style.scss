@@ -1,0 +1,26 @@
+@import "../../styles/variables.module";
+
+.footer {
+    position: fixed;
+        bottom: 0;
+        width: 100%;
+    display: flex;
+    background: $dark-bg;
+     justify-content: center;
+        
+    }
+
+    .footerSpan {
+        width: 1200px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 24px;
+        color: $light-grey;
+        padding: 6px 15px;
+
+    }
+
+    .footerDevName {
+        color: $color-white;
+        margin-left: 10px;
+    }
